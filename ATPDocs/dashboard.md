@@ -11,6 +11,9 @@ The Microsoft Defender for Identity **Dashboard** page shows data to help you be
 
 Use the **Dashboard** page to view critical insights and real-time data about identity threat detection and response (ITDR). View graphs and widgets that showcase important information related to unauthorized access, account compromise, insider threats, and abnormal activities, and then proactively monitor and manage potential identity-related security risks.
 
+> [!NOTE]
+> The data presented on the dashboard is based on the visibility and scope of MDI within your organization's environments.
+
 ## Prerequisites
 
 To access this new dashboard, you need:
@@ -41,7 +44,7 @@ Select links in the cards to just to more details, such as documentation, relate
 
 |Name  |Description |
 |---------|---------|
-|**Identities overview (Sheild widget)** |Provides a quick overview of the number of users in hybrid, cloud, and on-premises environments (AD and Microsoft Entra ID). This feature includes direct links to the Advanced Hunting platform, offering detailed user information at your fingertips.|
+|**Identities overview (Sheild widget)** |Provides a quick overview of the number of users in hybrid, cloud, and on-premises environments (AD and Microsoft Entra ID), based on the visibility and scope of Microsoft Defender for Identity within your organization's environments. This feature includes direct links to the Advanced Hunting platform, enabling quick access to detailed user information.|
 |**Top insights** /<br>**Users identified in a risky lateral movement path** | Indicates any sensitive accounts with risky lateral movement paths, which are windows of opportunity for attackers and can expose risks.  <br><br>We recommend that you take action on any sensitive accounts found with risky lateral movement paths to minimize your risk. <br><br>For more information, see [Understand and investigate Lateral Movement Paths (LMPs) with Microsoft Defender for Identity](understand-lateral-movement-paths.md).|
 |**Top insights** /<br>**Dormant Active Directory users who should be removed from sensitive groups** | Lists accounts that have been left unused for at least 180 days. <br><br>An easy and quiet path deep into your organization is through inactive accounts that are a part of sensitive groups, therefore we recommend removing those users from sensitive groups. <br><br>For more information, see [Security assessment: Riskiest lateral movement paths (LMP)](security-assessment-riskiest-lmp.md).|
 |**ITDR deployment health**     |  Lists any sensor deployment progress, any health alerts, and license availability.     |
